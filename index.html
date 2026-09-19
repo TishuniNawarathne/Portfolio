@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Y.M.T.K.L. Nawarathne - HNDIT Student & Aspiring Software Engineer at SLIATE Kandy. Skilled in Full-Stack Web, Mobile, and Backend Development. GPA 3.97/4.00. Seeking Software Engineering Internship.">
+    <meta name="keywords" content="Y.M.T.K.L. Nawarathne, Software Engineer, Portfolio, HNDIT, SLIATE Kandy, Internship, Web Developer, Mobile Developer, React, Next.js, Java">
+    <meta name="author" content="Y.M.T.K.L. Nawarathne">
+    <title>Y.M.T.K.L. Nawarathne | Aspiring Software Engineer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo-brand" aria-label="Home">
+                Portfolio
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li class="nav-item"><a href="#references" class="nav-link">References</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Light and Dark Theme" title="Toggle Light / Dark Mode">
+                    <i class="fa-solid fa-moon" id="theme-icon"></i>
+                </button>
+
+                <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / Home Section -->
+        <section class="section hero-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Y.M.T.K.L. Nawarathne</span>
+                    </h1>
+                    <h2 class="hero-subtitle">HNDIT Student | Aspiring Software Engineer</h2>
+                    
+                    <p class="hero-passion">
+                        Passionate about building meaningful digital solutions through technology, creativity, and continuous learning.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span class="social-label">Connect with me:</span>
+                        <a href="https://www.linkedin.com/in/tishuni-nawarathne-265260325" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/TishuniNawarathne" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="profile-card-frame">
+                        <div class="glow-backdrop"></div>
+                        <div class="profile-img-container">
+                            <img src="assets/images/profile.png" alt="Y.M.T.K.L. Nawarathne Profile Picture" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-content reveal">
+                    <!-- Main Detailed Profile Card -->
+                    <div class="about-card-main">
+                        <div class="about-card-header">
+                            <div class="about-icon-decor">
+                                <i class="fa-solid fa-user-gear"></i>
+                            </div>
+                            <div class="about-badge-pill">
+                                <i class="fa-solid fa-graduation-cap"></i> SLIATE Kandy | GPA 3.97
+                            </div>
+                        </div>
+                        
+                        <div class="about-paragraphs">
+                            <p class="about-text-p">
+                                I am an HNDIT student at SLIATE Kandy, currently maintaining a GPA of 3.97/4.00, with a strong passion for software engineering and technology. I have hands-on experience in web and mobile application development, database management, and modern software development practices.
+                            </p>
+                            <p class="about-text-p">
+                                I enjoy creating practical, user-focused digital solutions by turning ideas and real-world requirements into functional and engaging applications. My interests include software engineering, business analysis, project management, and software quality assurance, while I continuously develop my technical, analytical, and problem-solving skills through academic and personal projects.
+                            </p>
+                        </div>
+
+                        <div class="about-focus-block">
+                            <h4 class="focus-title"><i class="fa-solid fa-compass"></i> Primary Engineering Focus & Core Areas</h4>
+                            <div class="about-focus-tags">
+                                <span class="about-tag"><i class="fa-solid fa-check"></i> Software Engineering</span>
+                                <span class="about-tag"><i class="fa-solid fa-check"></i> Software Development</span>
+                                <span class="about-tag"><i class="fa-solid fa-check"></i> Business Analysis</span>
+                                <span class="about-tag"><i class="fa-solid fa-check"></i> Project Management</span>
+                                <span class="about-tag"><i class="fa-solid fa-check"></i> Machine Learning</span>
+                                <span class="about-tag"><i class="fa-solid fa-check"></i> Software Quality Assurance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Development Pillars Grid -->
+                    <div class="about-highlights-grid">
+                        <div class="highlight-card reveal">
+                            <div class="highlight-icon">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <h3>Software Development</h3>
+                            <p>Interested in developing practical and user-friendly software solutions.</p>
+                        </div>
+
+                        <div class="highlight-card reveal">
+                            <div class="highlight-icon">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <h3>Continuous Learning</h3>
+                            <p>Always improving technical knowledge and exploring modern technologies.</p>
+                        </div>
+
+                        <div class="highlight-card reveal">
+                            <div class="highlight-icon">
+                                <i class="fa-solid fa-puzzle-piece"></i>
+                            </div>
+                            <h3>Problem Solving</h3>
+                            <p>Enjoy analyzing problems and creating practical technology-based solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Technical Competencies</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Programming Languages -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skills-tags">
+                            <span class="skill-badge"><i class="fa-brands fa-java text-java"></i> Java</span>
+                            <span class="skill-badge"><i class="fa-brands fa-js text-js"></i> JavaScript</span>
+                            <span class="skill-badge"><i class="fa-solid fa-file-code text-ts"></i> TypeScript</span>
+                            <span class="skill-badge"><i class="fa-solid fa-hashtag text-csharp"></i> C#</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Frontend Development -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="cat-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-tags">
+                            <span class="skill-badge"><i class="fa-brands fa-html5 text-html"></i> HTML5</span>
+                            <span class="skill-badge"><i class="fa-brands fa-css3-alt text-css"></i> CSS3</span>
+                            <span class="skill-badge"><i class="fa-brands fa-react text-react"></i> React</span>
+                            <span class="skill-badge"><i class="fa-solid fa-n text-next"></i> Next.js</span>
+                            <span class="skill-badge"><i class="fa-brands fa-react text-react"></i> React Native</span>
+                            <span class="skill-badge"><i class="fa-solid fa-wind text-tailwind"></i> Tailwind CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Backend Development -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="cat-icon"><i class="fa-solid fa-server"></i></div>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-tags">
+                            <span class="skill-badge"><i class="fa-brands fa-node-js text-node"></i> Node.js</span>
+                            <span class="skill-badge"><i class="fa-solid fa-gear text-express"></i> Express.js</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Databases -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="cat-icon"><i class="fa-solid fa-database"></i></div>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skills-tags">
+                            <span class="skill-badge"><i class="fa-solid fa-database text-mysql"></i> MySQL</span>
+                            <span class="skill-badge"><i class="fa-solid fa-leaf text-mongo"></i> MongoDB Atlas</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: Tools & Platforms -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="cat-icon"><i class="fa-solid fa-wrench"></i></div>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="skills-tags">
+                            <span class="skill-badge"><i class="fa-brands fa-git-alt text-git"></i> Git</span>
+                            <span class="skill-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-badge"><i class="fa-solid fa-paper-plane text-postman"></i> Postman</span>
+                            <span class="skill-badge"><i class="fa-solid fa-code text-vscode"></i> Visual Studio Code</span>
+                            <span class="skill-badge"><i class="fa-solid fa-file-word text-office"></i> Microsoft Office</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 6: Engineering Concepts -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="cat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                            <h3>Concepts</h3>
+                        </div>
+                        <div class="skills-tags">
+                            <span class="skill-badge"><i class="fa-solid fa-cubes"></i> Object-Oriented Programming (OOP)</span>
+                            <span class="skill-badge"><i class="fa-solid fa-sitemap"></i> MVC Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills Sub-Section -->
+                <div class="soft-skills-container reveal">
+                    <h3 class="soft-skills-title"><i class="fa-solid fa-lightbulb"></i> Professional Soft Skills</h3>
+                    <div class="soft-skills-tags">
+                        <span class="soft-badge"><i class="fa-solid fa-check"></i> Problem Solving</span>
+                        <span class="soft-badge"><i class="fa-solid fa-check"></i> Team Collaboration</span>
+                        <span class="soft-badge"><i class="fa-solid fa-check"></i> Communication</span>
+                        <span class="soft-badge"><i class="fa-solid fa-check"></i> Analytical Thinking</span>
+                        <span class="soft-badge"><i class="fa-solid fa-check"></i> Time Management</span>
+                        <span class="soft-badge"><i class="fa-solid fa-check"></i> Adaptability</span>
+                        <span class="soft-badge"><i class="fa-solid fa-check"></i> Fast Learning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Software Projects</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 01 -->
+                    <article class="project-card reveal">
+                        <div class="project-header">
+                            <div class="project-type-tag"><i class="fa-solid fa-briefcase"></i> Web Platform</div>
+                            <div class="project-icon-box project-theme-1">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">BizBridge – Job Hiring & Recruitment Platform</h3>
+                            <p class="project-desc">
+                                BizBridge is a web-based job hiring and recruitment platform designed to connect job seekers with HR managers. HR managers can create and manage job vacancies while applicants can create profiles, search for jobs, apply for suitable opportunities and track their applications.
+                            </p>
+
+                            <div class="project-tech-stack">
+                                <span>Next.js</span>
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                                <span>MongoDB</span>
+                                <span>Google Gemini API</span>
+                            </div>
+
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-angle-right"></i> Applicant registration & login</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> HR Manager dashboard & job management</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Applicant profiles & application tracking</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> AI-assisted CV builder & cover letter generation</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> AI career assistance & interview prep</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Admin management panel</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/TishuniNawarathne/bizbridge" target="_blank" rel="noopener noreferrer" class="btn btn-project">
+                                <i class="fa-brands fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 02 -->
+                    <article class="project-card reveal">
+                        <div class="project-header">
+                            <div class="project-type-tag"><i class="fa-solid fa-mobile-screen-button"></i> Mobile App</div>
+                            <div class="project-icon-box project-theme-2">
+                                <i class="fa-solid fa-wallet"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">SaveMe – Personal Finance Management Mobile App</h3>
+                            <p class="project-desc">
+                                SaveMe is a personal finance management mobile application designed to help users manage their income, expenses, budgets and financial activities digitally instead of relying on manual spending notes.
+                            </p>
+
+                            <div class="project-tech-stack">
+                                <span>React Native</span>
+                                <span>Expo</span>
+                                <span>Node.js</span>
+                                <span>MongoDB Atlas</span>
+                                <span>REST API</span>
+                                <span>JWT Auth</span>
+                            </div>
+
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-angle-right"></i> Secure user registration & authentication</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Income & expense digital tracking</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Budget management & activity tracking</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Financial reports & profile management</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> REST API backend integration</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Cloud MongoDB database storage</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/TishuniNawarathne/SaveMe-Mobile-Application" target="_blank" rel="noopener noreferrer" class="btn btn-project">
+                                <i class="fa-brands fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 03 -->
+                    <article class="project-card reveal">
+                        <div class="project-header">
+                            <div class="project-type-tag"><i class="fa-solid fa-hotel"></i> Management System</div>
+                            <div class="project-icon-box project-theme-3">
+                                <i class="fa-solid fa-bed"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Hotel Room Booking Management System</h3>
+                            <p class="project-desc">
+                                Hotel Room Booking Management System is a responsive web application developed to simplify hotel room browsing, reservations and booking management.
+                            </p>
+
+                            <div class="project-tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-angle-right"></i> Interactive room browsing interface</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Seamless room reservation system</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Comprehensive booking management</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Admin management dashboard</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Fully responsive UI across devices</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/TishuniNawarathne/Hotel-Room-Booking-Management-System" target="_blank" rel="noopener noreferrer" class="btn btn-project">
+                                <i class="fa-brands fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 04 -->
+                    <article class="project-card reveal">
+                        <div class="project-header">
+                            <div class="project-type-tag"><i class="fa-solid fa-cart-shopping"></i> E-Commerce</div>
+                            <div class="project-icon-box project-theme-4">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Tote & Trend – Customized Tote Bag E-Commerce Website</h3>
+                            <p class="project-desc">
+                                Tote & Trend is an e-commerce web application designed for showcasing and selling handmade and customized tote bags.
+                            </p>
+
+                            <div class="project-tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-angle-right"></i> Engaging home page & hero showcase</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Dynamic product catalog</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> User login & registration system</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Interactive shopping experience & checkout</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Contact section & customer inquiry UI</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/TishuniNawarathne/Tote-and-Trend" target="_blank" rel="noopener noreferrer" class="btn btn-project">
+                                <i class="fa-brands fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 05 -->
+                    <article class="project-card reveal">
+                        <div class="project-header">
+                            <div class="project-type-tag"><i class="fa-solid fa-desktop"></i> Desktop Application</div>
+                            <div class="project-icon-box project-theme-5">
+                                <i class="fa-solid fa-store"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">StyleStop – Fashion Store Management System</h3>
+                            <p class="project-desc">
+                                StyleStop is a Java-based desktop fashion store management system designed to manage products, customers and orders through a user-friendly graphical interface.
+                            </p>
+
+                            <div class="project-tech-stack">
+                                <span>Java</span>
+                                <span>Java Swing</span>
+                                <span>MySQL</span>
+                            </div>
+
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-angle-right"></i> Product catalog & inventory management</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Customer records management</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Sales & order processing system</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Desktop GUI developed with Java Swing</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Relational MySQL database integration</li>
+                                    <li><i class="fa-solid fa-angle-right"></i> Clean Object-Oriented Architecture</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/TishuniNawarathne/StyleStopStore" target="_blank" rel="noopener noreferrer" class="btn btn-project">
+                                <i class="fa-brands fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Languages Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="education-content reveal">
+                    <div class="timeline-card">
+                        <div class="timeline-badge">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-year"><i class="fa-regular fa-calendar-days"></i> 2023 – Present</span>
+                                <div class="gpa-pill">
+                                    <span class="gpa-label">Current GPA</span>
+                                    <span class="gpa-val">3.97 / 4.00</span>
+                                </div>
+                            </div>
+                            <h3 class="edu-degree">Higher National Diploma in Information Technology (HNDIT)</h3>
+                            <h4 class="edu-institution">Sri Lanka Institute of Advanced Technological Education (SLIATE) – Kandy</h4>
+                        </div>
+
+                        <div class="edu-body">
+                            <p class="edu-intro">Relevant Coursework & Core Engineering Focus Areas:</p>
+                            <div class="edu-tags">
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Software Engineering</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Software Development</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Project Management</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Business Analysis</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Machine Learning</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Software Quality Assurance</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Database Management</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> Object-Oriented Programming (OOP)</span>
+                                <span class="edu-tag"><i class="fa-solid fa-circle-check"></i> System Analysis and Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages Section -->
+                <div class="languages-block reveal">
+                    <h3 class="languages-title"><i class="fa-solid fa-language"></i> Language Proficiency</h3>
+                    <div class="languages-grid">
+                        <div class="language-card">
+                            <div class="lang-flag"><i class="fa-solid fa-globe"></i></div>
+                            <div class="lang-info">
+                                <h4>Sinhala</h4>
+                                <span class="lang-level">Native</span>
+                            </div>
+                        </div>
+                        <div class="language-card">
+                            <div class="lang-flag"><i class="fa-solid fa-comments"></i></div>
+                            <div class="lang-info">
+                                <h4>English</h4>
+                                <span class="lang-level">Professional Working Proficiency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section cert-section" id="certifications">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Qualifications</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="cert-grid">
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-box">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-year">2019</span>
+                            <h3 class="cert-title">Diploma in Information Technology</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> ESOFT Metro Campus</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-box">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-year">2019</span>
+                            <h3 class="cert-title">Diploma in English</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> ESOFT Metro Campus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section class="section references-section" id="references">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Academic Endorsements</span>
+                    <h2 class="section-title">References</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="references-grid">
+                    <div class="reference-card reveal">
+                        <div class="ref-avatar">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div class="ref-info">
+                            <h3 class="ref-name">Mrs. V.G.S. Pradeepika</h3>
+                            <p class="ref-title">Senior Lecturer – SLIATE Kandy</p>
+                            <a href="tel:+94715799011" class="ref-phone">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+94 71 579 9011</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="reference-card reveal">
+                        <div class="ref-avatar">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div class="ref-info">
+                            <h3 class="ref-name">Mr. Pasindu Wijesinghe</h3>
+                            <p class="ref-title">Lecturer – SLIATE Kandy</p>
+                            <a href="tel:+94788895941" class="ref-phone">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+94 78 889 5941</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <p class="contact-intro text-center reveal">
+                    I'm open to Software Engineering internship opportunities, collaborations and professional connections. Feel free to connect with me through the platforms below.
+                </p>
+
+                <div class="contact-location-bar text-center reveal">
+                    <span class="location-badge"><i class="fa-solid fa-location-dot"></i> Based in Kandy, Sri Lanka</span>
+                </div>
+
+                <div class="contact-cards-grid reveal">
+                    <!-- Phone Card -->
+                    <a href="tel:+94758135185" class="contact-card">
+                        <div class="contact-card-icon contact-theme-phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <span class="contact-card-label">Phone</span>
+                            <span class="contact-card-value">+94 75 813 5185</span>
+                        </div>
+                        <div class="contact-card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </a>
+
+                    <!-- Email Card -->
+                    <a href="mailto:tishuninawarathne4@gmail.com" class="contact-card">
+                        <div class="contact-card-icon contact-theme-email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <span class="contact-card-label">Email</span>
+                            <span class="contact-card-value">tishuninawarathne4@gmail.com</span>
+                        </div>
+                        <div class="contact-card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </a>
+
+                    <!-- WhatsApp Card -->
+                    <a href="https://wa.me/94758135185" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-card-icon contact-theme-whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <span class="contact-card-label">WhatsApp</span>
+                            <span class="contact-card-value">+94 75 813 5185</span>
+                        </div>
+                        <div class="contact-card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </a>
+
+                    <!-- LinkedIn Card -->
+                    <a href="https://www.linkedin.com/in/tishuni-nawarathne-265260325" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-card-icon contact-theme-linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <span class="contact-card-label">LinkedIn</span>
+                            <span class="contact-card-value">tishuni-nawarathne-265260325</span>
+                        </div>
+                        <div class="contact-card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </a>
+
+                    <!-- GitHub Card -->
+                    <a href="https://github.com/TishuniNawarathne" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-card-icon contact-theme-github">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <span class="contact-card-label">GitHub</span>
+                            <span class="contact-card-value">github.com/TishuniNawarathne</span>
+                        </div>
+                        <div class="contact-card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3 class="footer-name">Y.M.T.K.L. Nawarathne</h3>
+                <p class="footer-title">HNDIT Student | Aspiring Software Engineer</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/tishuni-nawarathne-265260325" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/TishuniNawarathne" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:tishuninawarathne4@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel:+94758135185" aria-label="Phone">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+            </div>
+
+            <div class="footer-copy">
+                &copy; 2026 Y.M.T.K.L. Nawarathne. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
